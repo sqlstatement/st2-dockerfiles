@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 ubuntu:focal
+FROM --platform=linux/amd64 ubuntu:noble
 
 ARG DEBIAN_FRONTEND=noninteractive
 
