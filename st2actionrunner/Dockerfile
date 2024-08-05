@@ -7,7 +7,8 @@ RUN apt-get install -y rsync \
   inetutils-traceroute \
   net-tools \
   dnsutils \
-  sendmail
+  sendmail \
+  libmysqlclient-dev
 
 USER root
 
